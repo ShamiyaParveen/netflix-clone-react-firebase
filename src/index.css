@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #e50914;
+    --background-color: #141414;
+    --text-color: #ffffff;
+    --muted-text-color: #b3b3b3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+a,
+button,
+input {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+.page-loader {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: var(--background-color);
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 600;
+}
