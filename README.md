@@ -1,73 +1,100 @@
-# Netflix Clone ReactJS
+# 🎬 Netflix Clone (React + Firebase Auth)
 
-A Netflix-inspired frontend built with React, Vite, React Router, Firebase Authentication, and Firestore.
+This is a Netflix-inspired web application built using React, featuring user authentication and dynamic movie data. The project focuses on creating a clean, responsive UI similar to Netflix.
 
-## Features
+🔗 Live Demo: https://netflix-clone-react-firebase-iiyrg0el7-shamiyaparveens-projects.vercel.app/  
+💻 GitHub: https://github.com/ShamiyaParveen  
 
-- Responsive Netflix-style home page
-- User sign up and sign in with Firebase Authentication
-- User profile data stored in Firestore
-- Movie cards loaded from the OMDb API
-- Player page with movie details
+---
 
-## Tech Stack
+## 🚀 Features
 
-- React
-- Vite
-- React Router DOM
-- Firebase
-- Firestore
-- ESLint
+- 🔐 User Authentication (Login / Signup) using Firebase Auth  
+- 🎥 Fetch and display movie data using API  
+- 🎯 Netflix-inspired clean and modern UI  
+- 📱 Fully responsive design (mobile, tablet, desktop)  
+- ⚛️ Component-based architecture using React  
+- 🔄 Smooth navigation and UI experience  
 
-## Getting Started
+---
 
-### 1. Install dependencies
+## 🛠️ Tech Stack
 
-```bash
-npm install
-```
+- React.js  
+- JavaScript (ES6+)  
+- HTML5 & CSS3  
+- Firebase Authentication  
+- OMDB API (for movie data)  
+- Vercel (Deployment)  
 
-### 2. Create environment file
+---
 
-Create a `.env` file in the project root and add:
+## 📂 Project Structure
 
-```env
-VITE_OMDB_API_KEY=your_omdb_api_key
-```
-
-### 3. Run the development server
-
-```bash
-npm run dev
-```
-
-### 4. Build for production
-
-```bash
-npm run build
-```
-
-## Project Structure
-
-```text
 src/
-  assets/
-  components/
-  pages/
-  firebase.js
-  App.jsx
-  main.jsx
-```
+  components/  
+  pages/  
+  services/  
+  assets/  
+  App.jsx  
+  main.jsx  
 
-## Notes
+---
 
-- `.env` is ignored by Git, so your local API key will not be uploaded.
-- Firebase config is currently stored in `src/firebase.js`.
-- `dist/` and `node_modules/` are already ignored in `.gitignore`.
+## ⚙️ Installation & Setup
 
-## Scripts
+1. Clone the repository  
+git clone https://github.com/ShamiyaParveen/netflix-clone.git  
 
-- `npm run dev` - start local development server
-- `npm run build` - create production build
-- `npm run preview` - preview production build locally
-- `npm run lint` - run ESLint
+2. Navigate to project folder  
+cd netflix-clone  
+
+3. Install dependencies  
+npm install  
+
+4. Run the development server  
+npm run dev  
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file and add:
+
+VITE_FIREBASE_API_KEY=your_api_key  
+VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain  
+VITE_FIREBASE_PROJECT_ID=your_project_id  
+VITE_OMDB_API_KEY=your_omdb_api_key  
+
+---
+
+## 💡 What I Learned
+
+- Implementing authentication using Firebase Auth  
+- Fetching and displaying API data in React  
+- Building responsive UI using component-based approach  
+- Structuring a scalable React project  
+
+---
+
+## 📈 Future Improvements
+
+- Add movie categories & filtering  
+- Add watchlist feature  
+- Improve UI animations  
+- Add video playback functionality  
+
+---
+
+## 🙋‍♀️ Author
+
+Shamiya Parveen  
+
+LinkedIn: https://www.linkedin.com/in/shamiya-parveen-123196232/  
+GitHub: https://github.com/ShamiyaParveen  
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a star ⭐ on GitHub!
