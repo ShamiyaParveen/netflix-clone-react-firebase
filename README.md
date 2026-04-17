@@ -2,7 +2,7 @@
 
 This is a Netflix-inspired web application built using React, featuring user authentication and dynamic movie data. The project focuses on creating a clean, responsive UI similar to Netflix.
 
-🔗 Live Demo: https://netflix-clone-react-firebase-iiyrg0el7-shamiyaparveens-projects.vercel.app/  
+🔗 Live Demo: https://netflix-clone-react-firebase-phi.vercel.app/
 💻 GitHub: https://github.com/ShamiyaParveen  
 
 ---
